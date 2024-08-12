@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _FlowWmiss:
+        m_Texture: {fileID: 2800000, guid: 9a968f44f565ace4bb88b0a0d2eb73f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 0a5b54490f678144d9f85b9ca69809cb, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -28,15 +32,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BaseIntensity: 0.366
+    - _BaseIntensity: 0
     - _BseIntensity: 0
+    - _PowerIntensity: -1.13
     - _RimBaseIntensity: 0.445
     - _RimPower: 1.01
-    - _RimScale: 4
+    - _RimScale: 3.23
+    - _TestPower: 1
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _InnerColor: {r: 1, g: 0, b: 0, a: 0}
     - _OutColor: {r: 0, g: 0.60784316, b: 1, a: 0}
-    - _RimColor: {r: 0, g: 0.6108718, b: 1, a: 0}
+    - _RimColor: {r: 0, g: 0.61087173, b: 1, a: 1}
+    - _Speed: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
