@@ -527,7 +527,7 @@ PrefabInstance:
     - target: {fileID: -1578373571446707184, guid: f7a45676f86010d44bf7cffdf21d1007, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: be819b27d6b8f8542a885d7ee0c4730f, type: 2}
+      objectReference: {fileID: 2100000, guid: 5c2f81749ad799547af48e8d806cf384, type: 2}
     - target: {fileID: 919132149155446097, guid: f7a45676f86010d44bf7cffdf21d1007, type: 3}
       propertyPath: m_Name
       value: Ekko_idle02
